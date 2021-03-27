@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {}
 
-function mouseClicked() {
+function touchStarted() {
   background(random(255), random(255), random(255));
   for (i = 20; i < 975; i += 25) {
     for (j = 20; j < 975; j += 20) {
